@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "367989098590",
+    "project_id": "fainalproject-52528",
+    "storage_bucket": "fainalproject-52528.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367989098590:android:6633019c6332cfb0958ccf",
+        "android_client_info": {
+          "package_name": "com.example.fainalprojecct"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367989098590-joh8p1ajs1cqbsjmof2fl3mcneg2p9jc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb5CyH2i9njxt4UiZDOxn60kekz3QQpVo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367989098590-joh8p1ajs1cqbsjmof2fl3mcneg2p9jc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

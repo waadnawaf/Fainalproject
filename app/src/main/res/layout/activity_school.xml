@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/studentInformation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+       >
+
+    <TextView
+        android:id="@+id/studentTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Information"
+        android:textColor="@color/purple_500"
+        android:textSize="20dp"
+        android:padding="5dp"
+        tools:ignore="HardcodedText,SpUsage" />
+
+        <EditText
+            android:id="@+id/firstNameEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="First Name"
+            tools:ignore="Autofill" />
+
+        <EditText
+            android:id="@+id/fatherNameEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+           android:hint="Father Name" />
+
+        <EditText
+            android:id="@+id/grandFatherEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+           android:hint="Grand Father Name" />
+
+        <EditText
+            android:id="@+id/familyNameEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Family Name"/>
+
+        <EditText
+            android:id="@+id/stageEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Stage Study"/>
+
+        <EditText
+            android:id="@+id/idNumberEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="ID Number"/>
+
+
+
+        <LinearLayout
+            android:id="@+id/schoolInformation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@id/studentInformation"
+            >
+            <TextView
+                android:id="@+id/schoolInformationEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="School Information"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:textColor="@color/purple_500"/>
+
+            <EditText
+                android:id="@+id/schoolNameEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+               android:hint="School Name" />
+
+
+            <EditText
+                android:id="@+id/nameEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Name"/>
+
+
+            <TextView
+                android:id="@+id/messageTv"
+                android:layout_width="match_parent"
+                android:layout_height="137dp"
+                android:padding="5dp"
+                android:text="Message"
+                android:textColor="@color/purple_500"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/submitBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:layout_marginTop="70dp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
